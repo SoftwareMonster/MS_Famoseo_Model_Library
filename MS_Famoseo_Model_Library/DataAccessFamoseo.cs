@@ -11,9 +11,9 @@ namespace MS_Famoseo_Model_Library
 {
     public class DataAccessFamoseo
     {
-        private Famosos Famosos { get; set; }
-        private FamososSiguiendo FamososSiguiendo { get; set; }
-        private Grupos Grupos { get; set; }
+        public Famosos Famosos { get; set; }
+        public FamososSiguiendo FamososSiguiendo { get; set; }
+        public Grupos Grupos { get; set; }
         public DataAccessFamoseo()
         {
             Famosos = new Famosos();
