@@ -47,6 +47,11 @@
     <Compile Include="Tables\Famosos\Famosos.cs" />
     <Compile Include="Tables\Grupos\Grupos.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\MS_Dapper_Orm_Library\MS_Dapper_Orm_Library\MS_Dapper_Orm_Library.csproj">
+      <Project>{0eaa8fe3-0e7b-4e07-9115-c3a64783012b}</Project>
+      <Name>MS_Dapper_Orm_Library</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
