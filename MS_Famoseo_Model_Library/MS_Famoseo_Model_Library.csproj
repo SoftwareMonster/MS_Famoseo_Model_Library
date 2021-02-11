@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="DataAccessFamoseo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tables\FamososQuienSiguen\FamososQuienSiguen.cs" />
+    <Compile Include="Tables\FamososSeguidores\FamososSeguidores.cs" />
     <Compile Include="Tables\FamososSiguiendo\FamososSiguiendo.cs" />
     <Compile Include="Tables\Famosos\Famosos.cs" />
     <Compile Include="Tables\Grupos\Grupos.cs" />
@@ -53,5 +55,6 @@
       <Name>MS_Dapper_Orm_Library</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
